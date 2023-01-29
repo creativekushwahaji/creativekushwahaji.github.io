@@ -1,0 +1,109 @@
+body{
+    background-color: #374741;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 10, 57);
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: calc(30px + 2vw);
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px #ff0000;
+}
+.icon1{
+    margin-left: 0;
+    margin-top: -10px;
+    display: flex;
+    width:  50.21354166666664vw;
+    min-width: 280px;
+    color: aliceblue;
+    text-align: center;
+}
+@media screen and (max-width:400px) {
+    .icon1{
+        margin-left:0vw;
+    }
+}
+.fa {
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.9em;
+    width: 2.8645vw;
+    height: 1.30VW;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: inherit;
+    font-size: 27px;
+    border-width: 0.5vw;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    border-style: outset;
+    border-color: #3B5998;
+    color: #3B5998;
+  }
+  .fa-twitter {
+    border-color: #55ACEE;
+    border-style: outset;
+    color: #55ACEE;
+  }  
+  .fa-linkedin {
+    border-color: #007bb5;
+    color: #007bb5;
+    border-style: outset;
+  }
+  
+  .fa-youtube {
+    border-color: #bb0000;
+    color: #bb0000;
+    border-style: outset;
+  }
+  
+  .fa-instagram{
+    background-image: linear-gradient(to bottom right,red,blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border-color: #fb39dd;
+    border-style: outset;
+  }
+  .fa-envelope{
+    background-image: linear-gradient(to bottom right,rgb(219, 37, 37),rgb(227, 168, 237));
+    background-clip: text;
+    color: transparent;
+    border-color: rgb(219, 37, 37);
+    -webkit-background-clip: text;
+    border-style: outset;
+  }
+  .fa-github{
+    border-color: rgb(140, 88, 196);
+    border-style: outset;
+  }
+  .mobile{
+    display: flex;
+    justify-content: center;
+  }
+  .ic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  footer{
+    position: absolute;
+bottom: 0;
+width: 100%;
+margin-bottom: 8.51983584131327vh;
+  }
